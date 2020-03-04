@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+  }
+  
+  div {
+    background-color: yellow;
+    border: black 1px solid;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.gener table {
+    border-collapse: collapse;
+    border: none;
+    text-align: center;
+  }
+  
+  div.gener caption {
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
+  div.gener td {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+  }
+  
+  div.gener th {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  
+  div.febrer table {
+    border: none;
+    border-collapse: collapse;
+    text-align: right;
+  }
+  div.febrer caption {
+    font-weight: bold;
+    text-align: right;
+  }
+  div.febrer th {
+    border-top: none;
+    border-bottom: none;
+    padding-right: 5px;
+  }
+  div.febrer td {
+    border-top: none;
+    border-bottom: none;
+    font-size: 150%;
+    padding-right: 5px;
+    width: 1.5em;
+  }
+  
+  div.març table {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  div.març caption {
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  div.març th {
+    text-align: center;
+  }
+  div.març td {
+    width: 4em;
+    height: 4em;
+    padding-left: 5px;
+    font-size: 70%;
+    vertical-align: top;
+  }
